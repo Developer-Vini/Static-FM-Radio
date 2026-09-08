@@ -63,7 +63,7 @@ pio run --target upload
 
 ## Journal
 O journal completo com o processo de desenvolvimento está em:
-docs/journal.md.
+![Journal](docs/journal.md)
 
 Lá você encontrará:
 - Objetivo do projeto

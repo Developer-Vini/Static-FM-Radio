@@ -67,36 +67,6 @@
 
 ---
 
-## 08/09/2026 - Firmware
-
-### O que eu fiz hoje?
-- Escrevi o firmware em C++ para o XIAO RP2040
-- Criei uma classe `FMRadio` para controlar o RDA5807
-- Implementei funcionalidades:
-  - Inicialização do chip via I2C
-  - Sintonização de frequência (87.5 - 108.0 MHz)
-  - Controle de volume (0-15)
-  - Busca de estações (seek up/down)
-- Estruturei o código em:
-  - `firmware/src/main.cpp` - código principal
-  - `firmware/include/fm_radio.h` - header da classe
-  - `firmware/lib/fm_radio.cpp` - implementação
-  - `firmware/platformio.ini` - configuração do PlatformIO
-- Documentei o código com comentários
-
-### O que aprendi
-- Como funciona a biblioteca Wire do Arduino para I2C
-- Como inicializar o RDA5807 via registradores
-- Como sintonizar frequências no RDA5807
-- Estrutura de classes em C++ para firmware organizado
-- Como usar PlatformIO para projetos embarcados
-
-### Resultado
-- Firmware funcional e documentado
-- Código organizado em classes
-- Pronto para upload no XIAO RP2040
-
----
 
 ## 08/09/2026 - Preparação para submissão
 
@@ -109,6 +79,5 @@
 ### Status atual do projeto
 - ✅ Esquemático completo no EasyEDA
 - ✅ PCB projetada e exportada 
-- ✅ Firmware escrito e documentado
 - ✅ Journal documentando todo o processo
 

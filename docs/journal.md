@@ -62,7 +62,7 @@ A ideia dessa estrutura é que, no futuro, eu possa adicionar controles físicos
 ### Time Spent: 6 horas
 
 ## 08/09/2026 - Finalização
-- Agora, pra finalizar escrevi o readme do projeto. Não sei se ficou do jeito que pediram, mas foi o que saiu da minha cabeça, falando a verdade, de la pra cá foi algo assustador, varios bugs aparecendo do nada kakakk, enfim, o importante é que eu ja terminei.
+- Agora, pra finalizar escrevi o readme do projeto. Não sei se ficou do jeito que pediram, mas foi o que saiu da minha cabeça, falando a verdade, de la pra cá foi algo assustador, varios bugs aparecendo do nada kakakk, enfim, o importante é que eu ja terminei. Estou bastante ansioso kaka!
 
 
 ## Reflexão

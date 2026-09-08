@@ -13,14 +13,14 @@ bool Radio::begin(){
 
     //softreset do chip
     softReset();
-    delay(500)
+    delay(500);
 
     //configurar o chip: habilitar,banda FM,espacamento 100KHz
     writeRegister(RDA5807_REG_CONTROL, 0xC001);
 
     //vou definir um volume inicial bem baixin,
     m_volume = 10; //vou colocar 10 pra nao ficar muito alto nem muito baixo
-    writeRegister(RDA5807_REG_VOLUME, m_volume)
+    writeRegister(RDA5807_REG_VOLUME, m_volume);
 
 
 

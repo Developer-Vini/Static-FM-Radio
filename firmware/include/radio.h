@@ -1,3 +1,9 @@
+#ifndef RADIO_H
+#define RADIO_H
+
+#include <Arduino.h>
+#include <Wire.h>
+
 class Radio {
     pubic: 
         //inicializar com os valores padrao da class

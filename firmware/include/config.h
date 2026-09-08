@@ -32,3 +32,8 @@
 #define SERIAL_BAUD_RATE 115200
 
 #endif
+
+/*
+O que esse codigo faz(se bem um codigo e sim arquivo de configuracao, enfim... kaka)?
+Ele vai definir o endereco I2C do RDA5807, definir os pinos SDA/SCL, definr a faixa de frequencia do FM, definir os registradores do chip e por fim, definir a velocidade da serial
+*/

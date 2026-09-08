@@ -25,9 +25,9 @@ Hoje eu abri o EasyEDA e comecei o esquemático. Adicionei os componentes princi
 
 Depois converti o esquemático para PCB, posicionei os componentes e rodei o roteamento automático. Achei um problema no qual gastei bastante tempo: uma regra de roteamento mal configurada no EasyEDA que deixou trilhas muito próximas. Ajustei as regras de largura e espaçamento e o roteamento ficou correto. Por fim exportei os arquivos Gerber.
 
-![PCB finalizada no EasyEDA](PCB_PCB1_2026-09-07.png)
-![Esquemático básico do rádio FM](SCH_Esquematico1_1-P1_2026-09-07.png)
-![PCB 3D](image.png)
+![PCB finalizada no EasyEDA](../pcb/PCB_PCB1_2026-09-07.png)
+![Esquemático básico do rádio FM](../pcb/SCH_Esquematico1_1-P1_2026-09-07.png)
+![PCB 3D](../pcb/image.png)
 
 ### Problemas encontrados
 - O roteamento automático ficou com conflito de regras e precisei ajustar largura e espaçamento.
@@ -54,11 +54,16 @@ Hoje eu escrevi o firmware em C++ para o XIAO RP2040. Separei o código em arqui
 
 A ideia dessa estrutura é que, no futuro, eu possa adicionar controles físicos como botões e potenciômetros sem precisar reescrever o driver do RDA5807.
 
+
 ### Problemas encontrados
 - Tive que tomar cuidado com o tipo `float` no PlatformIO/Arduino porque algumas versões do compilador podem causar warnings.
 - O registrador de canal do RDA5807 usa 10 bits de frequência e 1 bit de tune; eu testei a conta `(freq - 76) * 10` até chegar no valor hexadecimal correto.
 
 ### Time Spent: 6 horas
+
+## 08/09/2026 - Finalização
+- Agora, pra finalizar escrevi o readme do projeto. Não sei se ficou do jeito que pediram, mas foi o que saiu da minha cabeça, falando a verdade, de la pra cá foi algo assustador, varios bugs aparecendo do nada kakakk, enfim, o importante é que eu ja terminei.
+
 
 ## Reflexão
 

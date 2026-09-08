@@ -15,3 +15,10 @@
 - Próximo passo: modelar case 3D
 
 
+## 07/09/2026 - Modelando caixinha
+- PCB concluída e exportada do EasyEDA
+- Arquivos de fabricação prontos
+- Próximo passo: modelar case 3D
+
+
+

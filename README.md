@@ -1,50 +1,51 @@
-# Rádio FM
+#FM Radio
 
-# Sobre o projeto 
+# About the Project
 
-Projeto de rádio FM. O objetivo é projetar e construir um rádio FM completo, documentar todo o processo...
+FM radio project. The goal is to design and build a complete FM radio station, documenting the entire process...
 
-## Objetivo
+## Objective
 
-- Projetar PCB customizada com receptor FM RDA5807
-- Escrever firmware para Seeed Studio XIAO RP2040
-- Documentar todo o processo de desenvolvimento
-- Aprender sobre hardware
+- Custom PCB projector with RDA5807 FM receiver
+- Write firmware for Seeed Studio XIAO RP2040
+- Document the entire development process
+- Learn about hardware
 
-# Componentes utilizados:
+# Components used:
 
-- XIAO RP2040 -> Microcontrolador principal 
-- RDA5807M  -> Receptor FM
-- TDA2822   -> Amplificador de audio
-- Jack 3.5mm -> Saida de audio
+- XIAO RP2040 -> Main microcontroller
+- RDA5807M -> FM receiver
+- TDA2822 -> Audio amplifier
+- 3.5mm jack -> Audio output
 
-# Softwares que utilizei
-- **Esquematização**: EasyEDA
+# Software used
+
+- **Schematic**: EasyEDA
 - **Firmware**: Arduino Framework + PlatformIO
 - **VSCode**: Codar
 
-## Como usar?
+## How to use?
 
-### 1. Compilar o firmware
+### 1. Compile the firmware
 
-```bash
-cd firmware
-pio run
+```bash firmware from CD
+```pio run
 ```
 
-### 2. Upload para o XIAO
+### 2. Upload to the XIAO
 
 ```bash
-pio run --target upload
+`pio run --target upload
 ```
 
 ## Journal
-O journal completo com o processo de desenvolvimento está em:
+The complete journal with the development process is at:
+
 ![Journal](docs/journal.md)
 
-Lá você encontrará:
-- Objetivo do projeto
-- Problemas encontrados
-- Soluções implementadas
-- Tempo gasto em cada etapa
-- Reflexões sobre o processo
+There you will find:
+- Project objective
+- Problems encountered
+- Innovative solutions
+- Time spent on each step
+- Reflections on the process
